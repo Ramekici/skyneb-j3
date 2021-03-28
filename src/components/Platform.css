@@ -1,0 +1,111 @@
+.container{
+    margin: 5rem auto;
+    width: 80%;
+}
+
+.platform-row{
+    display: flex;
+    align-items: flex-start;
+    flex-flow: wrap;
+}
+
+.platform-col{
+    width: 33%;
+}
+
+.eleman{
+    padding: 5rem .5rem;
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+    margin-bottom: .5rem;
+}
+.image img{
+    height: 100%;
+    z-index: -1;
+}
+
+.title{
+    font-size: 1.5rem;
+    padding: 0;
+    margin: .25rem 0;
+}
+
+.subtitle{
+    font-size: 1.2rem;
+    margin: 0;
+    color:rgb(75, 73, 73);
+}
+
+.nav-item{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link{
+    list-style: none;
+    padding: 0.5rem 0;
+
+}
+
+.nav-link .linkel{
+    text-decoration: none;
+    color: #2548a8;
+}
+
+.linkel i:hover > .linkel, 
+.linkel:hover > .linkel i {
+    color: #0e34e0;
+}
+
+.linkel i{
+    padding-left: 1rem;
+    color: #6288f0;
+}
+
+.button-group{
+    display: flex;
+    align-items: flex-start;
+}
+
+.button-playstore{
+    width: 120px;
+    background-color: inherit;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.button-playstore img{
+    width:100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width : 960px){
+    .container{
+        margin: 2rem auto;
+        width: 90%
+    }
+    .platform-col{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width : 480px){
+    .container{
+        margin: 1rem auto;
+        width: 96%
+    }
+    .platform-row{
+        flex-direction: column;
+    }
+    .platform-col{
+        width: 100%;
+    }
+}
