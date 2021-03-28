@@ -14,7 +14,7 @@
 }
 
 .eleman{
-    padding: 5rem .5rem;
+    padding: 5rem 1rem;
 }
 
 .image{
@@ -42,6 +42,13 @@
 .nav-item{
     margin: 0;
     padding: 0;
+    
+}
+
+.paragraf{
+    font: 1rem;
+    color: rgb(97, 97, 97);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .nav-link{
@@ -52,17 +59,16 @@
 
 .nav-link .linkel{
     text-decoration: none;
-    color: #2548a8;
+    color: #3e8efe;
 }
 
-.linkel i:hover > .linkel, 
-.linkel:hover > .linkel i {
-    color: #0e34e0;
+.linkel:hover {
+    color: #031b85;
 }
 
 .linkel i{
     padding-left: 1rem;
-    color: #6288f0;
+    color: #3e8efe;
 }
 
 .button-group{
